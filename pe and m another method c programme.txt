@@ -1,0 +1,17 @@
+#include<stdio.h>
+int calculate(int,int);
+int main()
+{
+    int pe,m,x;
+    printf("enter the value pe,m");
+    scanf("%d%d",&pe,&m);
+    x=calculate(pe,m);
+    printf("%d",x);
+    return 0;
+}
+int calculate(int pe,int m)
+{
+    int y;
+    y=pe/m*9.8;
+    return y;
+}
